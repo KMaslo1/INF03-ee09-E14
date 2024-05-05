@@ -1,0 +1,54 @@
+* {
+  font-family: Arial;
+}
+
+.header-left,
+.header-mid,
+.header-right,
+.footer-left,
+.footer-right,
+.footer-mid {
+  background-color: saddlebrown;
+  color: white;
+  height: 100px;
+  float: left;
+}
+
+.header-left,
+.footer-left {
+  width: 55%;
+  font-size: 120%;
+}
+
+.header-mid,
+.footer-mid {
+  width: 25%;
+}
+
+.header-right,
+.footer-right {
+  width: 20%;
+  text-align: right;
+}
+
+.main {
+  background-color: snow;
+  padding: 70px;
+  clear: both;
+}
+
+a {
+  border: dotted 2px saddlebrown;
+  background-color: snow;
+  color: saddlebrown;
+  padding: 20px;
+  line-height: 100px;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+body {
+  margin: 0;
+}
